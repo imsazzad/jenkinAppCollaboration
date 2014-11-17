@@ -71,4 +71,8 @@ class WelcomesController < ApplicationController
     def welcome_params
       params[:welcome]
     end
+
+    def is_admin?
+
+    end
 end
